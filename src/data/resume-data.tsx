@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "",
   about: "终身学习的坚定拥护者，不断探索新技术的掘金人。",
   summary:
-    "Hello，我是，我是一个有四年开发经验的前端开发工程师。享受编码、热爱开源，开发过多个中后台以及移动端应用，主要专注于React。",
+    "Hello，我是一个有四年开发经验的前端开发工程师。享受编码、热爱开源，开发过多个中后台以及移动端应用，主要专注于React。",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/42159029?s=400&u=c811e1ece4016ab28ea791cf7a930dd4b456c58d&v=4",
   personalWebsiteUrl: "https://portfolio.qingyuano.cn/",

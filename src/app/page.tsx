@@ -94,7 +94,7 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">关于</h2>
+          <h2 className="text-xl font-bold">关于我</h2>
           <p className="text-pretty  text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
