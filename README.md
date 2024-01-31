@@ -4,3 +4,5 @@
 - 使用 Next.js 14, React, Typescript, Shadcn/ui, Tailwind 构建
 - 多端自适应
 - 针对Next.js和Vercel进行了优化
+
+复刻自[BartoszJarocki](https://github.com/BartoszJarocki/cv)
