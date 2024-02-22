@@ -84,6 +84,7 @@ export const RESUME_DATA = {
     "Node.js",
     "Taro",
     "React Native",
+    "Expo",
     "React Query",
     "Zustand",
     "Redux Toolkit",
