@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "",
   about: "终身学习的坚定拥护者，不断探索新技术的掘金人。",
   summary:
-    "Hello，我是一个有四年开发经验的前端开发工程师。享受编码、热爱开源，开发过多个中后台以及移动端应用，主要专注于React。",
+    "Hello，我是一个有四年开发经验的前端开发工程师。享受编码、热爱开源，开发过多个中后台以及移动端应用，主要专注于React，也喜爱使用Next开发点小东西。",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/42159029?s=400&u=c811e1ece4016ab28ea791cf7a930dd4b456c58d&v=4",
   personalWebsiteUrl: "https://portfolio.qingyuano.cn/",
@@ -57,13 +57,13 @@ export const RESUME_DATA = {
       description: (
         <ul className="list-inside list-disc">
           <li>
-            完善公司菜菜到家项目，并使用React
+            完善公司菜菜到家项目（小程序，管理后台），并使用React
             Native、Expo实现对应的IOS和Android版
           </li>
           <li>
             独立完成微信支付功能，对微信支付的流程比较熟悉，包括企业账号认证到前后端开发
           </li>
-          <li>独立完成资产管理app的开发，包括统计图表、工单提交功能</li>
+          <li>独立完成资产管理App的开发，包括统计图表、工单提交功能</li>
         </ul>
       ),
     },
@@ -139,7 +139,7 @@ export const RESUME_DATA = {
         "该项⽬主要的需求是完成⼀个资产管理的 APP ，⽤于管理甲⽅内部的各种资产。有基本的图表数据统计功能。",
     },
     {
-      title: "g-resume",
+      title: "简历生成",
       techStack: [
         "Side Project",
         "Next.js",
@@ -152,6 +152,23 @@ export const RESUME_DATA = {
       link: {
         label: "",
         href: "https://www.g-resume.qingyuano.cn/",
+      },
+    },
+    {
+      title: "Portfolio",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "framer-motion",
+        "Tailwind",
+        "resend",
+        "react-email",
+      ],
+      description: "Portfolio站点",
+
+      link: {
+        label: "",
+        href: "https://portfolio.qingyuano.cn/",
       },
     },
   ],
