@@ -80,7 +80,8 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js",
+    "React",
+    "Next.js",
     "Node.js",
     "Taro",
     "React Native",
@@ -88,6 +89,7 @@ export const RESUME_DATA = {
     "React Query",
     "Zustand",
     "Redux Toolkit",
+    "Redux",
     "Jotai",
     "Radix",
     "Ant Design",
