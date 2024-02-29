@@ -26,14 +26,10 @@ export default function Page() {
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty  text-xs text-muted-foreground">
-              <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                href={RESUME_DATA.locationLink}
-                target="_blank"
-              >
+              <p className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline">
                 <GlobeIcon className="size-3" />
                 {RESUME_DATA.location}
-              </a>
+              </p>
             </p>
             <div className="flex gap-x-1 pt-1  text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
@@ -85,6 +81,13 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
               ) : null}
+              {
+                RESUME_DATA.contact.social.map((social) => (
+                  <a key={social.name} href={social.url} target="_blank">
+                    <span className="underline">{social.name}</span>
+                  </a>
+                ))
+              }
             </div>
           </div>
 
