@@ -102,6 +102,11 @@ export const RESUME_DATA = {
       techStack: ["React", "Taro", "TypeScript", "Tailwind", "Redux Toolkit"],
       description:
         "爱⽂集是⼀款集阅读/收集⽂章、推⼴植⼊、获取客⼾线索等功能的综合性⽂章营销⼩程序⼯具。",
+      contributes: [
+        "使用Taro+Typescript作为开发框架和语言，Redux + ReactToolkit管理状态，Tailwind作为样式解决方案。",
+        "基于事件代理为爱文集实现简易编辑器",
+        "衍⽣出⼀个易⽤的Taro模板，集成常⽤功能",
+      ],
     },
     {
       title: "九堡酒窖",
@@ -115,12 +120,21 @@ export const RESUME_DATA = {
       ],
       description:
         "九堡酒窖是一个专注于红酒的一日送达电商项目，包含管理后台和小程序客户端。",
+      contributes: [
+        "使用Taro+Typescript作为开发框架和语言，Zustand管理状态，Tailwind作为样式解决方案。",
+        "独立实现C端全部功能，包括订单、地址管理等",
+      ],
     },
     {
       title: "风控系统",
       techStack: ["React", "Redux", "React PDF", "Ant Design"],
       description:
         "公司的主营项⽬，已经迭代5年，基于此系统，搭建了⼀系列定制化的中后台。",
+      contributes: [
+        "实现高度定制化Table组件，极大简化CRUD表格页面",
+        "实现通过配置实现表格页、详情页，减少重复工作",
+        "通过react-pdf实现动态PDF生成报表",
+      ],
     },
     {
       title: "菜菜到家",
@@ -134,12 +148,19 @@ export const RESUME_DATA = {
       ],
       description:
         "菜菜到家是⼀整套电商系统，包含⼩程序、ios、android平台渠道以及相应的后台管理。",
+      contributes: [
+        "使用微信小程序原生语法并搭配Vant开发小程序版本。",
+        "使用React Native并搭配Typescript开发双端。",
+        "使用React+Antd搭建后台管理",
+      ],
     },
     {
       title: "资产管理App",
       techStack: ["React", "Expo", "TypeScript", "Redux"],
       description:
         "该项⽬主要的需求是完成⼀个资产管理的 APP ，⽤于管理甲⽅内部的各种资产。有基本的图表数据统计功能。",
+
+      contributes: ["使用Expo进行开发", "独立完成全过程"],
     },
     {
       title: "简历生成",
@@ -151,7 +172,10 @@ export const RESUME_DATA = {
         "Shadcn/ui",
       ],
       description: "完全本地化的多模版PDF简历生成",
-
+      contributes: [
+        "使用Next+Tailwind+Shadcn/ui完成",
+        "使用react-pdf实现纯前端生成pdf简历",
+      ],
       link: {
         label: "",
         href: "https://www.g-resume.qingyuano.cn/",
@@ -168,7 +192,10 @@ export const RESUME_DATA = {
         "react-email",
       ],
       description: "Portfolio站点",
-
+      contributes: [
+        "使用Next+Tailwind+ Framer-motion完成",
+        "实现精美的设计和动效",
+      ],
       link: {
         label: "",
         href: "https://portfolio.qingyuano.cn/",
