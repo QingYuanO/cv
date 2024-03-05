@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-8 md:p-16">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-6 md:p-16">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -81,13 +81,11 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
               ) : null}
-              {
-                RESUME_DATA.contact.social.map((social) => (
-                  <a key={social.name} href={social.url} target="_blank">
-                    <span className="underline">{social.name}</span>
-                  </a>
-                ))
-              }
+              {RESUME_DATA.contact.social.map((social) => (
+                <a key={social.name} href={social.url} target="_blank">
+                  <span className="underline">{social.name}</span>
+                </a>
+              ))}
             </div>
           </div>
 
@@ -98,9 +96,27 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">关于我</h2>
-          <p className="text-pretty  text-sm text-muted-foreground">
+          <p className="text-pretty text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">个人优势</h2>
+          <ul className="list-inside list-disc">
+            {RESUME_DATA.skills.map((contribute, idx) => (
+              <li
+                className="text-pretty text-sm text-muted-foreground"
+                key={idx}
+              >
+                {contribute}
+              </li>
+            ))}
+          </ul>
+          {/* <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div> */}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">工作经历</h2>
@@ -157,14 +173,6 @@ export default function Page() {
               </Card>
             );
           })}
-        </Section>
-        <Section>
-          <h2 className="text-xl font-bold">技能</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
