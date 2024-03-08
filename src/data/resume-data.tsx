@@ -83,6 +83,7 @@ export const RESUME_DATA = {
     "熟练使用Next以及周边生态Radix、Shadcn/ui、Prisma、NextAuth开发全栈以及移动端自适应项目",
     "熟练使用Taro以及微信小程序原生语法开发小程序",
     "了解Vue以及Uniapp，能使用Uniapp开发小程序",
+    "具备使用Node编写CRUD接口的能力",
     "熟练使用Tailwind、Less、CSS Module等样式解决方案",
     "熟练使用Git进行版本控制和代码托管",
     "较高的技术热情和积极性，喜欢研究新技术并落地到业务场景里面",
