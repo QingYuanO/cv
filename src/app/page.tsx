@@ -197,10 +197,10 @@ export default function Page() {
       <PrintDrawer />
       <CommandMenu
         links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "个人网站",
-          },
+          // {
+          //   url: RESUME_DATA.personalWebsiteUrl,
+          //   title: "个人网站",
+          // },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
