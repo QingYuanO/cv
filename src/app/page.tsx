@@ -102,7 +102,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">个人优势</h2>
-          <ul className="list-inside list-disc">
+          {/* <ul className="list-inside list-disc">
             {RESUME_DATA.skills.map((contribute, idx) => (
               <li
                 className="text-pretty text-sm text-muted-foreground"
@@ -111,12 +111,12 @@ export default function Page() {
                 {contribute}
               </li>
             ))}
-          </ul>
-          {/* <div className="flex flex-wrap gap-1">
+          </ul> */}
+          <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
-          </div> */}
+          </div>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">工作经历</h2>
