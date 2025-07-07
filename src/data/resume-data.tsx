@@ -32,6 +32,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "深圳市涵仓供应链有限公司",
+      badges: [],
+      title: "前端开发⼯程师",
+      start: "2024/03",
+      end: "至今",
+      description: (
+        <ul className="list-inside list-disc">
+          <li>
+            使用 Vue3 + Vite + Pinia + Tailwind + Element Plus 开发OMS、WMS、TMS
+            系统
+          </li>
+          <li>
+            使用 uniapp 开发双端应用，包括中亚地区物流尾程包裹签收 App、WMS PDA
+            快速扫描 App
+          </li>
+        </ul>
+      ),
+    },
+    {
       company: "深圳瑞赛⽹络科技有限公司",
       badges: [],
       title: "前端开发⼯程师",
@@ -211,16 +230,23 @@ export const RESUME_DATA = {
     //   },
     // },
     {
-      title: "BookmarkOcean",
+      title: "MiniCodeSnip",
       techStack: ["Side Project", "Next.js", "Tailwind", "Shadcn/ui"],
-      description: "将你的书签转换为导航站",
-      contributes: [
-        "使用Next+Tailwind+Shadcn/ui完成",
-        "支持一键部署到Vercel、Cloudflare",
-      ],
+      description: "可直接复制粘贴的小程序代码片段，10x提高你的开发速度",
+      contributes: ["使用Next+Tailwind+Shadcn/ui完成", "部署在Cloudflare"],
       link: {
         label: "",
-        href: "https://navigation.bookmarkocean.site/",
+        href: "https://www.minicodesnip.com/",
+      },
+    },
+    {
+      title: "doc-to-website",
+      techStack: ["Side Project", "Ai", "提示词"],
+      description: "将任何文档变成精美网页杂志",
+      contributes: ["根据完整得提示词生成精美网页杂志", "部署在Github Pages"],
+      link: {
+        label: "",
+        href: "https://github.com/QingYuanO/doc-to-website",
       },
     },
     {
@@ -229,6 +255,13 @@ export const RESUME_DATA = {
       description:
         "春天的熊读书会是一个全球线上线下读书社区小程序，目前已经进入北京、上海、深圳等多个城市",
       contributes: ["使用Taro+Tailwind开发", "使用Hono 开发后端接口"],
+    },
+    {
+      title: "OMS、WMS、TMS 系统",
+      techStack: ["Vue3", "Vite", "Pinia", "Tailwind", "Element Plus"],
+      description:
+        "涵仓供应链的OMS、WMS、TMS 系统，集成各个平台的订单、库存、物流等信息，包括 Shopee、Lazada、Tiktok 等",
+      contributes: ["使用Vue3+Vite+Pinia+Tailwind+Element Plus开发"],
     },
   ],
 } as const;
