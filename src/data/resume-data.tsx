@@ -123,6 +123,9 @@ export const RESUME_DATA = {
     "Tailwind",
     "微信小程序",
     "Hono",
+    "Vue",
+    "Uniapp",
+    "Element Plus",
   ],
   projects: [
     {
