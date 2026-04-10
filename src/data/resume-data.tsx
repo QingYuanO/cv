@@ -196,6 +196,10 @@ export const RESUME_DATA = {
       description:
         "涵仓供应链 OMS、WMS、TMS 系统，聚合 Shopee、Lazada、TikTok 等平台的订单、库存与物流信息。",
       contributes: ["使用 Vue3 + Vite + Pinia + Tailwind + Element Plus 开发"],
+      link:{
+        label:'',
+        href:'https://www.nanyangwms.com/'
+      }
     },
     {
       title: "QUICKBOX 国际物流 App",
