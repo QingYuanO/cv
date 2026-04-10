@@ -7,10 +7,10 @@ export const RESUME_DATA = {
   locationLink: "",
   about: "终身学习的坚定拥护者，不断探索新技术的掘金人。",
   summary:
-    "Hello，我是一位拥有多年开发经验的前端工程师。我热衷于编程开发，积极参与开源社区，在中后台系统、小程序及移动应用等领域都有丰富的实践经验。专注于React技术栈，同时也热衷于使用Next.js探索和开发创新性的项目。",
+    "拥有多年前端开发经验，长期深耕中后台系统、小程序与移动端应用，具备复杂业务场景的抽象建模与工程化落地能力。擅长 React 技术栈，同时具备 Vue3 + Vite + Pinia + Element Plus 的企业级项目实践经验，能够独立推进从需求分析、技术方案设计、模块开发到上线交付的完整流程。注重代码质量与团队协作，熟悉组件化、状态管理与性能优化，并持续关注前沿技术在实际业务中的价值转化。",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/42159029?s=400&u=c811e1ece4016ab28ea791cf7a930dd4b456c58d&v=4",
-  personalWebsiteUrl: "https://portfolio.qingyuano.cn/",
+  personalWebsiteUrl: "https://cv.qingyuano.com/",
   contact: {
     email: "qingyuano@foxmail.com",
     tel: "17573056281",
@@ -40,11 +40,11 @@ export const RESUME_DATA = {
       description: (
         <ul className="list-inside list-disc">
           <li>
-            使用 Vue3 + Vite + Pinia + Tailwind + Element Plus 开发OMS、WMS、TMS
+            使用 Vue3 + Vite + Pinia + Tailwind + Element Plus 开发 OMS、WMS、TMS
             系统
           </li>
           <li>
-            使用 uniapp 开发双端应用，包括中亚地区物流尾程包裹签收 App、WMS PDA
+            使用 UniApp 开发双端应用，包括中亚地区物流尾程包裹签收 App、WMS PDA
             快速扫描 App
           </li>
         </ul>
@@ -58,7 +58,7 @@ export const RESUME_DATA = {
       end: "2023/11",
       description: (
         <ul className="list-inside list-disc">
-          <li>使用React PDF重构公司报表生成功能</li>
+          <li>使用 React PDF 重构公司报表生成功能</li>
           <li>实现⾼度定制化Table组件，极⼤简化CRUD表格⻚⾯</li>
           <li>
             基于事件代理为爱文集实现简易编辑器，包括插入广告、图片、媒体文件
@@ -85,15 +85,6 @@ export const RESUME_DATA = {
           <li>独立完成资产管理App的开发，包括统计图表、工单提交功能</li>
         </ul>
       ),
-    },
-    {
-      company: "⼴西盛源⾏电⼦信息股份有限公司",
-      badges: [],
-      title: "前端开发⼯程师",
-      start: "2019/07",
-      end: "2020/06",
-      description:
-        "实现⼀个移动端的⻋辆客服中⼼系统，对⻋主的来电进⾏处理。 使⽤的技术主要有 jQuery、 Bootstrap，我的主要⼯作是编写响应式移动端⻚⾯",
     },
   ],
   skills: [
@@ -134,7 +125,7 @@ export const RESUME_DATA = {
       description:
         "爱⽂集是⼀款集阅读/收集⽂章、推⼴植⼊、获取客⼾线索等功能的综合性⽂章营销⼩程序⼯具。",
       contributes: [
-        "使用Taro+Typescript作为开发框架和语言，Redux + ReactToolkit管理状态，Tailwind作为样式解决方案。",
+        "使用 Taro + TypeScript 作为开发框架与语言，使用 Redux Toolkit 管理状态，Tailwind 作为样式解决方案。",
         "基于事件代理为爱文集实现简易编辑器",
         "衍⽣出⼀个易⽤的Taro模板，集成常⽤功能",
       ],
@@ -152,7 +143,7 @@ export const RESUME_DATA = {
       description:
         "九堡酒窖是一个专注于红酒的一日送达电商项目，包含管理后台和小程序客户端。",
       contributes: [
-        "使用Taro+Typescript作为开发框架和语言，Zustand管理状态，Tailwind作为样式解决方案。",
+        "使用 Taro + TypeScript 作为开发框架与语言，使用 Zustand 管理状态，Tailwind 作为样式解决方案。",
         "独立实现C端全部功能，包括订单、地址管理等",
       ],
     },
@@ -164,13 +155,12 @@ export const RESUME_DATA = {
       contributes: [
         "实现高度定制化Table组件，极大简化CRUD表格页面",
         "实现通过配置实现表格页、详情页，减少重复工作",
-        "通过react-pdf实现动态PDF生成报表",
+        "通过 React PDF 实现动态 PDF 报表生成",
       ],
     },
     {
       title: "菜菜到家",
       techStack: [
-        "React",
         "React",
         "Expo",
         "React Native",
@@ -178,93 +168,48 @@ export const RESUME_DATA = {
         "原生小程序",
       ],
       description:
-        "菜菜到家是⼀整套电商系统，包含⼩程序、ios、android平台渠道以及相应的后台管理。",
+        "菜菜到家是一整套电商系统，覆盖小程序、iOS、Android 多端渠道及后台管理。",
       contributes: [
         "使用微信小程序原生语法并搭配Vant开发小程序版本。",
-        "使用React Native并搭配Typescript开发双端。",
-        "使用React+Antd搭建后台管理",
+        "使用 React Native + TypeScript 开发双端应用。",
+        "使用 React + Ant Design 搭建后台管理系统",
       ],
     },
     {
-      title: "资产管理App",
+      title: "资产管理 App",
       techStack: ["React", "Expo", "TypeScript", "Redux"],
       description:
-        "该项⽬主要的需求是完成⼀个资产管理的 APP ，⽤于管理甲⽅内部的各种资产。有基本的图表数据统计功能。",
+        "该项目主要用于管理甲方内部各类资产，包含基础图表统计与工单提交流程。",
 
-      contributes: ["使用Expo进行开发", "独立完成全过程"],
-    },
-    {
-      title: "简历生成",
-      techStack: [
-        "Side Project",
-        "Next.js",
-        "React PDF",
-        "Tailwind",
-        "Shadcn/ui",
-      ],
-      description: "完全本地化的多模版PDF简历生成",
-      contributes: [
-        "使用Next+Tailwind+Shadcn/ui完成",
-        "使用react-pdf实现纯前端生成pdf简历",
-      ],
-      link: {
-        label: "",
-        href: "https://g-resume.qingyuano.com",
-      },
-    },
-    // {
-    //   title: "Portfolio",
-    //   techStack: [
-    //     "Side Project",
-    //     "Next.js",
-    //     "framer-motion",
-    //     "Tailwind",
-    //     "resend",
-    //     "react-email",
-    //   ],
-    //   description: "Portfolio站点",
-    //   contributes: [
-    //     "使用Next+Tailwind+ Framer-motion完成",
-    //     "实现精美的设计和动效",
-    //   ],
-    //   link: {
-    //     label: "",
-    //     href: "https://portfolio.qingyuano.cn/",
-    //   },
-    // },
-    {
-      title: "MiniCodeSnip",
-      techStack: ["Side Project", "Next.js", "Tailwind", "Shadcn/ui"],
-      description: "可直接复制粘贴的小程序代码片段，10x提高你的开发速度",
-      contributes: ["使用Next+Tailwind+Shadcn/ui完成", "部署在Cloudflare"],
-      link: {
-        label: "",
-        href: "https://www.minicodesnip.com/",
-      },
-    },
-    {
-      title: "doc-to-website",
-      techStack: ["Side Project", "Ai", "提示词"],
-      description: "将任何文档变成精美网页杂志",
-      contributes: ["根据完整得提示词生成精美网页杂志", "部署在Github Pages"],
-      link: {
-        label: "",
-        href: "https://github.com/QingYuanO/doc-to-website",
-      },
+      contributes: ["使用 Expo 进行开发", "独立完成全流程交付"],
     },
     {
       title: "春天的熊读书会",
       techStack: ["Taro", "TypeScript", "Tailwind", "Hono"],
       description:
         "春天的熊读书会是一个全球线上线下读书社区小程序，目前已经进入北京、上海、深圳等多个城市",
-      contributes: ["使用Taro+Tailwind开发", "使用Hono 开发后端接口"],
+      contributes: ["使用 Taro + Tailwind 开发", "使用 Hono 开发后端接口"],
     },
     {
       title: "OMS、WMS、TMS 系统",
       techStack: ["Vue3", "Vite", "Pinia", "Tailwind", "Element Plus"],
       description:
-        "涵仓供应链的OMS、WMS、TMS 系统，集成各个平台的订单、库存、物流等信息，包括 Shopee、Lazada、Tiktok 等",
-      contributes: ["使用Vue3+Vite+Pinia+Tailwind+Element Plus开发"],
+        "涵仓供应链 OMS、WMS、TMS 系统，聚合 Shopee、Lazada、TikTok 等平台的订单、库存与物流信息。",
+      contributes: ["使用 Vue3 + Vite + Pinia + Tailwind + Element Plus 开发"],
+    },
+    {
+      title: "QUICKBOX 国际物流 App",
+      techStack: ["Vue3", "Vite", "Pinia", "Tailwind", "UniApp"],
+      description:
+        "QUICKBOX 国际物流 App 深度整合电商与现代物流能力，覆盖从中国跨境发货到吉尔吉斯斯坦境内最后一公里配送。",
+      contributes: [
+        "使用 UniApp 开发双端应用，支持多语言与暗黑主题",
+        "成功上架 Google Play 和 App Store",
+      ],
+      link: {
+        label: "",
+        href: "https://www.quickbox.pro/",
+      },
     },
   ],
 } as const;
