@@ -105,7 +105,7 @@ export default function Page() {
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">个人优势</h2>
+          <h2 className="text-xl font-bold">技能</h2>
           {/* <ul className="list-inside list-disc">
             {RESUME_DATA.skills.map((contribute, idx) => (
               <li
