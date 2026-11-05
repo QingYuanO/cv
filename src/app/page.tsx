@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
 import { RESUME_DATA } from "@/data/resume-data";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { WeChatIcon } from "@/components/icons";
+import { GlobeIcon, MailIcon } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -44,17 +45,25 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="size-4" />
-                  </a>
-                </Button>
+              {RESUME_DATA.contact.wechat ? (
+                <div className="group relative">
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    aria-label="微信二维码"
+                  >
+                    <WeChatIcon className="size-4" />
+                  </Button>
+                  <div className="pointer-events-none absolute left-1/2 top-full z-20 mt-2 hidden w-44 -translate-x-1/2 rounded-md border bg-white p-2 shadow-md group-hover:block">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={RESUME_DATA.contact.wechat}
+                      alt="微信二维码"
+                      className="h-auto w-full"
+                    />
+                  </div>
+                </div>
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
@@ -74,11 +83,6 @@ export default function Page() {
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
-                </a>
-              ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (

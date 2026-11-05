@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://cv.qingyuano.com/",
   contact: {
     email: "qingyuano@foxmail.com",
-    tel: "17573056281",
+    wechat: "/wechat.jpg",
     social: [
       {
         name: "GitHub",
@@ -45,7 +45,7 @@ export const RESUME_DATA = {
           </li>
           <li>
             使用 UniApp 开发双端应用，包括中亚地区物流尾程包裹签收 App、WMS PDA
-            快速扫描 App
+            快速扫描 App，熟悉AppStore和Google Play的上架审核流程
           </li>
         </ul>
       ),
